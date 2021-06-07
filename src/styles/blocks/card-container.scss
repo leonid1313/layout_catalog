@@ -14,10 +14,12 @@
     &:hover {
       border: 3px solid #f3f3f3;
       transform: scale(1.2);
+      transition: transform 0.4s;
     }
   }
 
   &__title {
+    padding-top: 20px;
     font-weight: 500;
     font-size: 12px;
     line-height: 15px;
